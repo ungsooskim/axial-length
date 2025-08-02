@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load the axial length data
-data = pd.read_excel("분석용.xlsx")  # Make sure this file is uploaded in the Streamlit app
+data = pd.read_csv("분석용.csv")  # Make sure this file is uploaded in the Streamlit app
 
 st.set_page_config(page_title="Axial Length Percentile Calculator")
 st.title("Axial Length Percentile Checker")
